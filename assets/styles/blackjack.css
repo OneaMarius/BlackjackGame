@@ -1,0 +1,548 @@
+@keyframes testCard1 {
+    0% {
+       background-color: white;
+       border: 5px solid black;
+       transform: rotateY(0deg);    
+       box-shadow: 0vw 0vh 3px black;
+    }
+    50% {
+     background-color: white;
+     border: 5px solid black;
+     box-shadow: 3vw 3vh 3px black;
+  }
+    51% {
+     background-color: black;
+     border: 5px solid blue;
+     box-shadow: 3vw 3vh 3px black;
+    }
+    100% {
+     background-color: black;
+     border: 5px solid blue;
+     transform: rotateY(180deg); 
+     box-shadow: 0vw 0vh 3px black;
+    }
+ }
+
+@keyframes testCard2 {
+    0% {
+       background-color: white;
+       border: 5px solid blue;
+       /* transform: rotateY(0deg);     */
+       box-shadow: 0vw 0vh 3px black;
+    }
+    50% {
+     background-color: white;
+     border: 5px solid blue;
+     box-shadow: 1vw 1vh 3px black;
+  }
+    51% {
+     background-color: black;
+     border: 5px solid blue;
+     box-shadow: 1vw 1vh 3px black;
+    }
+    100% {
+     background-color: black;
+     border: 5px solid blue;
+     /* transform: rotateY(180deg);  */
+     box-shadow: 2vw 2vh 3px black;
+    }
+ }
+
+ @keyframes zoomIn {
+     from {font-size: 1.5rem;}
+     to {font-size: 2rem;}
+ }
+
+ .animationZoom {
+    animation-name: zoomIn;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+audio {
+    
+    position: absolute;
+    width: 140px;
+    height: 25px;
+    left: 0px;
+    bottom: 0px;
+    z-index: 1;
+
+}
+
+body {
+    background-color: #2f2f2f;
+    text-align: center;
+    font-size: 1rem;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#BJcontainer0 {
+    width: 95vw;
+    height: 94vh;
+    border: 10px double black;
+    background-color: #5f5f5f;
+    margin: 1vh auto;
+    /* position: absolute; */
+}
+
+#BJcontainer1 {
+    position: relative;
+    width: 100%;
+    height: 5%;
+    /* line-height: 100%; */
+    /* border: 1px solid black; */
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    line-height: 4vh;
+    text-align: center;
+    font-weight: bold;
+    overflow:auto;
+    font-size: 1rem;
+    user-select: none;
+}
+
+#A1 {
+    height: 100%;
+    background-color: white;
+    text-align: center;
+    font-weight: bold;
+    overflow:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    position: relative;
+}
+
+#gameResult {
+    height: 50%;
+    background-color: white;
+    text-align: center;
+    font-weight: bold;
+    overflow:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    border-bottom: 2px double #2f2f2f;
+}
+
+#newBet {
+    height: 50%;
+    background-color: white;
+    text-align: center;
+    font-weight: bold;
+    overflow:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    color: blue;
+}
+
+#bestScore {
+    height: 50%;
+    background-color: white;
+    text-align: center;
+    font-weight: bold;
+    overflow:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3em;
+    background-color: black;
+    color: white;
+    overflow:hidden;
+}
+
+#score {
+    height: 50%;
+    background-color: white;
+    text-align: center;
+    font-weight: bold;
+    overflow:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    background-color: white;
+    color: black;
+}
+
+#B1 {
+    width: 20%;
+    height: 100%;
+    line-height: 4vh;
+    background-color: white;
+    text-align: center;
+    font-weight: bold;
+    overflow:auto;
+    /* font-size: 25px; */
+    cursor: pointer;
+}
+
+#B1:hover {
+    background-color: blue;
+    color: white;
+}
+
+#BC1 {
+    width: 60%;
+    text-align: center;
+    color: white;
+}
+#C1 {
+
+    width: 20%;
+    height: 100%;
+    display: flex;
+    /* border: 1px solid blue; */
+    /* line-height: 4vh; */
+    background-color: white;
+    cursor: pointer;
+}
+
+
+
+#topRightBox1 {
+   width: 50%;
+   height: 100%;
+   border-right: 2px double black;
+}
+
+#topRightBox2 {
+   width: 50%;
+   height: 100%;
+}
+
+#topRightBox2:hover {
+    background-color: red;
+    color: white;
+}
+
+#BJcontainer2 {
+    width: 100%;
+    height: 95%;
+    /* border: 1px solid black; */
+    background-color: rgb(0, 0, 0);
+    display: flex;
+}
+
+#A2 {
+    width: 80%;
+    height: 100%;
+    /* background-color: #7f7f7f; */
+    background-image: url("img/bg1.jpg");
+    /* background-size: contain; */
+    
+}
+
+#B2 {
+    width: 20%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    /* border: 2px solid rgb(3, 177, 3); */
+    font-size: 1.5em;
+    color: white;
+    overflow: auto;
+}
+
+/* #B2:hover {
+    background-color: greenyellow;
+    color: black;
+} */
+
+.card {
+    width: 90px;
+    height: 145px;
+    min-width: 8vh;
+    min-height: 13vh;
+    border: 2px solid black;
+    font-size: 40px;
+    background-color: white;
+    margin: 0 2px;
+
+    animation-name: testCard1;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: reverse;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    
+}
+
+
+
+.dc2 {
+    animation-name: testCard2;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: reverse;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+img {
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.btn {
+    width: 70px;
+    height: 40px;
+    min-width: 10vh;
+    min-height: 4vh;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: hsl(240, 16%, 79%);
+    margin: 0px 10px;
+    text-shadow: 2px 2px 1px black;
+    border-radius: 15%;
+    cursor: pointer;
+}
+
+#btnHit {
+  background-color: green;
+  font-weight: bold;
+  color: white;
+}
+
+#btnStand {
+    background-color: red;
+    color: white;
+}
+
+#btnBet {
+    background-color: blue;
+    color: white;
+
+}
+
+#inputBet {
+    width: 100px;
+    height: 34px;
+    min-width: 12vh;
+    min-height: 4vh;
+    font-size: 24px;
+}
+
+#deck {
+    position: absolute;
+    top: 400px;
+    left: 200px;
+    background-image: radial-gradient(black, red);
+    box-shadow: black 3px 3px 3px;
+}
+
+/* zzzzzzzzzzzzzzzzzzzzzzzzzzDECTzzzzzzzzzzzzzzzzzzzzzzzz */
+#DC {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 35%;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+
+#MID-INFO {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 20%;
+    justify-content: center;
+    color: black;
+    user-select: none;
+}
+
+#PC {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 35%;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+
+#BT-BTNS {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 10%;
+    justify-content: center;
+}
+
+/* zzzzzzzzzzzzzzzzzzzzzzzzzzINFO MIDzzzzzzzzzzzzzzzzzzzzzzzz */
+
+.mid {
+    width: 30%;
+    border: 1px solid black;
+    background-color: white;
+    margin: 0 auto;
+}
+
+/* zzzzzzzzzzzzzzzzzzzzzzzzzzDECTzzzzzzzzzzzzzzzzzzzzzzzz */
+
+#dc1 {
+    /* position: absolute; */
+    top: 175px;
+    left: 400px;
+}
+
+#dc2 {
+    /* position: absolute; */
+    top: 175px;
+    left: 600px;
+    background-image: radial-gradient(black, black);
+
+}
+
+#dc3 {
+    /* position: absolute; */
+    top: 175px;
+    left: 800px;
+}
+
+#dc4 {
+    /* position: absolute; */
+    top: 175px;
+    left: 1000px;
+}
+
+#dc5 {
+    /* position: absolute; */
+    top: 175px;
+    left: 1200px;
+}
+
+#pc1 {
+    /* position: absolute; */
+    top: 625px;
+    left: 400px;
+}
+
+#pc2 {
+    /* position: absolute; */
+    top: 625px;
+    left: 600px;
+}
+
+#pc3 {
+    /* position: absolute; */
+    top: 625px;
+    left: 800px;
+}
+
+#pc4 {
+    /* position: absolute; */
+    top: 625px;
+    left: 1000px;
+}
+
+#pc5 {
+    /* position: absolute; */
+    top: 625px;
+    left: 1200px;
+}
+
+
+
+#betDiv {
+    /* position: absolute; */
+    top: 450px;
+    left: 700px;
+}
+
+
+
+
+
+
+
+
+/* LOGIN PAGE */
+
+#bodylogin {
+    width: 98vw;
+    height: 62vh;
+    background-color: #5f5f5f;
+}
+
+#bigBox {
+    height: 400px;
+    width: 400px;
+    border: 3px solid white;
+    margin: auto;
+    margin-top: 10%;
+    border-radius: 15%;
+    background-color: rgb(32, 32, 32);
+}
+
+#boxLogin {
+    height: 200px;
+    width: 300px;
+    border: 5px solid black;
+    margin: auto;
+    margin-top: 20%;
+    background-color: rgb(54, 54, 54);
+    color: white;
+    padding: 10px;
+    border-radius: 15%;
+    font-size: 24px;
+}
+
+#inputName {
+    height: 30px;
+    width: 200px;
+    margin-top: 20px;
+    font-size: 28px;
+    text-align: center;
+    font-weight: bold;
+    /* color: red; */
+}
+
+#btnPlay {
+    width: 100px;
+    height: 50px;
+    font-size: 24px;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 25%;
+}
+
+#top-bar-left {
+    position: absolute;
+    left: 0;
+    top:0;
+    /* border: 2px solid green; */
+    width: 9vh;
+    height: 9vh;
+    background-image: url(../../../../home-page.png);
+    background-size: 8vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 2vmax;
+    color: white;
+    cursor: pointer;
+    margin: 15px;
+    
+    border-radius: 25px;
+    box-shadow: 0 0 0  5px #666;
+ }
+ 
+ #top-bar-left:hover {
+    background-color: aliceblue;
+ }
